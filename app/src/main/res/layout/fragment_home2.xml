@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvCurrentMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:text="Oktober"
+            android:textColor="#ADADAD"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSumIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="+ Rp 20.000"
+            android:textColor="@color/colorButtonPrimary"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="@+id/tvCurrentMonth"
+            app:layout_constraintTop_toBottomOf="@+id/tvCurrentMonth" />
+
+
+        <ImageView
+            android:id="@+id/btnOut"
+            android:layout_width="67dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_add_box_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSumOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/colorSecondary"
+            android:text="- Rp 135.000"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSumIn" />
+
+        <ImageView
+            android:id="@+id/btnIn"
+            android:layout_width="67dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_add_box_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tvSumIn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="12dp"
+            android:text="Expense"
+            android:textColor="#ADADAD"
+            app:layout_constraintBottom_toTopOf="@+id/tvSumOut"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivCategory"
+            android:layout_width="159dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            android:padding="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSumOut"
+            app:srcCompat="@drawable/document" />
+
+        <ImageView
+            android:id="@+id/ivHistory"
+            android:layout_width="159dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="24dp"
+            android:padding="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ivCategory"
+            app:srcCompat="@drawable/history" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="159dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="64dp"
+            android:padding="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivCategory"
+            app:srcCompat="@drawable/statistic" />
+
+        <ImageView
+            android:id="@+id/ivSetting"
+            android:layout_width="159dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:padding="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivHistory"
+            app:srcCompat="@drawable/setting" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Category"
+            android:textSize="20sp"
+            android:textColor="@color/colorButtonPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/ivCategory"
+            app:layout_constraintHorizontal_bias="0.474"
+            app:layout_constraintStart_toStartOf="@+id/ivCategory"
+            app:layout_constraintTop_toBottomOf="@+id/ivCategory" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="History"
+            android:textSize="20sp"
+            android:textColor="@color/colorButtonPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/ivHistory"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/ivHistory"
+            app:layout_constraintTop_toBottomOf="@+id/ivHistory" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Statistic"
+            android:textSize="20sp"
+            android:textColor="@color/colorButtonPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Setting"
+            android:textSize="20sp"
+            android:textColor="@color/colorButtonPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/ivSetting"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/ivSetting"
+            app:layout_constraintTop_toBottomOf="@+id/ivSetting" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

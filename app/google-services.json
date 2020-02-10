@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "173380622154",
+    "firebase_url": "https://acconss.firebaseio.com",
+    "project_id": "acconss",
+    "storage_bucket": "acconss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173380622154:android:5d815610bb22604f03d3b3",
+        "android_client_info": {
+          "package_name": "com.dalamsyah.accons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173380622154-peke3nflljr0c73l0688ajr2148ffskr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dalamsyah.accons",
+            "certificate_hash": "9a51e6442b42ee865b35b2579d251983ea7fa369"
+          }
+        },
+        {
+          "client_id": "173380622154-gje1m3jbnu030gggkro3f0k6dmrbb52k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA88uEZIqVHtGvjubDv8j80hxAIeRDxcJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173380622154-gje1m3jbnu030gggkro3f0k6dmrbb52k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

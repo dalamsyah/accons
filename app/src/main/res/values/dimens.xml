@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_group_item">10dp</dimen>
+    <dimen name="margin_top_item">10dp</dimen>
+
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="paddingLayout">30dp</dimen>
+    <dimen name="paddingButton">18dp</dimen>
+    <dimen name="marginTopLayout">30dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+
+</resources>

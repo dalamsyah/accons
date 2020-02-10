@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Accons</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_kategori">
+        <item>Makanan</item>
+        <item>Minuman</item>
+        <item>Pulsa</item>
+        <item>Internet</item>
+        <item>Bensin</item>
+        <item>Lain - lain</item>
+    </string-array>
+
+    <string name="etUsername">Username</string>
+    <string name="btnLogin">Sign In</string>
+    <string name="etPassword">Password</string>
+
+</resources>
